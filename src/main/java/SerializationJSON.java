@@ -8,7 +8,7 @@ public class SerializationJSON {
     public static void SerializeObject(Shop shop, String fileName) throws IOException {
         StringWriter writer = new StringWriter();
         ObjectMapper mapper = new ObjectMapper();
-        mapper.writeValue(writer, shop);
+        mapper.writerWithDefaultPrettyPrinter().writeValue(writer, shop);
         String result = writer.toString();
         FileWriter writer1 = new FileWriter(fileName, false);
         writer1.write(result);

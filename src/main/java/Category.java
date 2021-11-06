@@ -10,8 +10,10 @@ public class Category {
     @JacksonXmlElementWrapper(localName="Clotheses")
     public ArrayList<Clothes> Clotheses;
     @JacksonXmlProperty(localName = "NameCategory")
+    @JsonProperty("NameCategory")
     private String NameCategory;
     @JacksonXmlProperty(localName = "CategoryID")
+    @JsonProperty("CategoryID")
     private int CategoryId;
 
     public Category(String nameCategory, int categoryId) {

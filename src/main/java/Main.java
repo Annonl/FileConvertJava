@@ -1,17 +1,20 @@
 import java.io.File;
 import java.io.IOException;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws IOException {
         String firstFile = "", secondFile = "";
+        Scanner sc = new Scanner(System.in);
         if (args.length == 0) {
             System.out.println("Enter the name of the file where you want to take data from:");
-
+            firstFile = sc.nextLine();
             System.out.println("Enter the name of the file where you want to write the data:");
-
+            secondFile = sc.nextLine();
         } else if (args.length == 1) {
             firstFile = args[0];
             System.out.println("Enter the name of the file where you want to write the data:");
+            secondFile = sc.nextLine();
         } else {
             firstFile = args[0];
             secondFile = args[1];
