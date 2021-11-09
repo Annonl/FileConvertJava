@@ -16,7 +16,6 @@ import java.util.ArrayList;
         @JsonSubTypes.Type(name = "Sweatshirt", value = Sweatshirt.class)
 })
 public abstract class Clothes {
-    @JacksonXmlProperty(localName = "Category")
     public String Category;
     @JacksonXmlProperty(localName = "Name")
     public String Name;

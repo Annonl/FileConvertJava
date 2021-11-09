@@ -26,7 +26,9 @@ public class Main {
                 shop = ChangeStructureShop.ChangeForJSON(shop);
                 SerializationJSON.SerializeObject(shop, secondFile);
             } else if (extension[extension.length - 1].equals("json")) {
-
+                var shop = SerializationJSON.DeserializeObject(firstFile);
+                shop = ChangeStructureShop.ChangeForXml(shop);
+                SerializationXML.SerializeObject(shop,secondFile);
             } else {
                 System.err.println("You must enter files with xml or json extension. Please, try again.");
             }
