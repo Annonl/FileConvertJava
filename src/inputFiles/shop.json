@@ -1,0 +1,221 @@
+{
+  "categories" : [ {
+    "Clotheses" : [ {
+      "Category" : "T_Shirt",
+      "Category" : "T_Shirt",
+      "Name" : "White",
+      "ProductID" : 0,
+      "Cost" : 1100,
+      "Density" : 170,
+      "AvalibleSize" : [ {
+        "SizeName" : "XS"
+      }, {
+        "SizeName" : "S"
+      }, {
+        "SizeName" : "M"
+      }, {
+        "SizeName" : "L"
+      }, {
+        "SizeName" : "XL"
+      }, {
+        "SizeName" : "2XL"
+      }, {
+        "SizeName" : "3XL"
+      } ]
+    }, {
+      "Category" : "T_Shirt",
+      "Category" : "T_Shirt",
+      "Name" : "Black",
+      "ProductID" : 1,
+      "Cost" : 1100,
+      "Density" : 170,
+      "AvalibleSize" : [ {
+        "SizeName" : "XS"
+      }, {
+        "SizeName" : "S"
+      }, {
+        "SizeName" : "M"
+      }, {
+        "SizeName" : "L"
+      }, {
+        "SizeName" : "XL"
+      } ]
+    }, {
+      "Category" : "T_Shirt",
+      "Category" : "T_Shirt",
+      "Name" : "BlackSquare",
+      "ProductID" : 2,
+      "Cost" : 1850,
+      "Density" : 170,
+      "AvalibleSize" : [ {
+        "SizeName" : "XS"
+      }, {
+        "SizeName" : "S"
+      }, {
+        "SizeName" : "M"
+      }, {
+        "SizeName" : "L"
+      }, {
+        "SizeName" : "XL"
+      } ]
+    } ],
+    "NameCategory" : "cost less than 2000",
+    "CategoryID" : 0
+  }, {
+    "Clotheses" : [ {
+      "Category" : "Sweatshirt",
+      "Category" : "Sweatshirt",
+      "Name" : "SimpleBlack",
+      "ProductID" : 3,
+      "Cost" : 2000,
+      "Density" : 220,
+      "AvalibleSize" : [ {
+        "SizeName" : "XS"
+      }, {
+        "SizeName" : "S"
+      }, {
+        "SizeName" : "M"
+      }, {
+        "SizeName" : "L"
+      }, {
+        "SizeName" : "XL"
+      }, {
+        "SizeName" : "2XL"
+      }, {
+        "SizeName" : "3XL"
+      } ]
+    }, {
+      "Category" : "Sweatshirt",
+      "Category" : "Sweatshirt",
+      "Name" : "SHOT.White",
+      "ProductID" : 4,
+      "Cost" : 2600,
+      "Density" : 320,
+      "AvalibleSize" : [ {
+        "SizeName" : "XS"
+      }, {
+        "SizeName" : "S"
+      }, {
+        "SizeName" : "M"
+      }, {
+        "SizeName" : "L"
+      } ]
+    }, {
+      "Category" : "Short",
+      "Category" : "Short",
+      "Name" : "BlackShort",
+      "ProductID" : 6,
+      "Cost" : 2000,
+      "Density" : 0,
+      "AvalibleSize" : [ {
+        "SizeName" : "XS"
+      }, {
+        "SizeName" : "S"
+      }, {
+        "SizeName" : "M"
+      }, {
+        "SizeName" : "L"
+      }, {
+        "SizeName" : "XL"
+      }, {
+        "SizeName" : "2XL"
+      }, {
+        "SizeName" : "3XL"
+      } ]
+    }, {
+      "Category" : "Polo",
+      "Category" : "Polo",
+      "Name" : "WhitePolo",
+      "ProductID" : 9,
+      "Cost" : 2350,
+      "Density" : 0,
+      "AvalibleSize" : [ {
+        "SizeName" : "XS"
+      }, {
+        "SizeName" : "S"
+      }, {
+        "SizeName" : "M"
+      }, {
+        "SizeName" : "L"
+      } ]
+    }, {
+      "Category" : "Polo",
+      "Category" : "Polo",
+      "Name" : "SirqlePolo",
+      "ProductID" : 10,
+      "Cost" : 2350,
+      "Density" : 0,
+      "AvalibleSize" : [ {
+        "SizeName" : "XS"
+      }, {
+        "SizeName" : "S"
+      }, {
+        "SizeName" : "M"
+      }, {
+        "SizeName" : "XL"
+      }, {
+        "SizeName" : "2XL"
+      } ]
+    } ],
+    "NameCategory" : "cost between 2000 and 3000",
+    "CategoryID" : 1
+  }, {
+    "Clotheses" : [ {
+      "Category" : "Pant",
+      "Category" : "Pant",
+      "Name" : "BlackPants",
+      "ProductID" : 5,
+      "Cost" : 3350,
+      "Density" : 0,
+      "AvalibleSize" : [ {
+        "SizeName" : "XS"
+      }, {
+        "SizeName" : "S"
+      }, {
+        "SizeName" : "M"
+      }, {
+        "SizeName" : "L"
+      } ]
+    }, {
+      "Category" : "Shirt",
+      "Category" : "Shirt",
+      "Name" : "WhiteClassic",
+      "ProductID" : 7,
+      "Cost" : 3250,
+      "Density" : 190,
+      "AvalibleSize" : [ {
+        "SizeName" : "S"
+      }, {
+        "SizeName" : "M"
+      }, {
+        "SizeName" : "L"
+      }, {
+        "SizeName" : "XL"
+      }, {
+        "SizeName" : "2XL"
+      } ]
+    }, {
+      "Category" : "Shirt",
+      "Category" : "Shirt",
+      "Name" : "SquareClassic",
+      "ProductID" : 8,
+      "Cost" : 3250,
+      "Density" : 0,
+      "AvalibleSize" : [ {
+        "SizeName" : "XS"
+      }, {
+        "SizeName" : "S"
+      }, {
+        "SizeName" : "M"
+      }, {
+        "SizeName" : "L"
+      }, {
+        "SizeName" : "XL"
+      }, {
+        "SizeName" : "2XL"
+      } ]
+    } ],
+    "NameCategory" : "cost more than 3000",
+    "CategoryID" : 2
+  } ]
+}
