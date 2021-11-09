@@ -17,9 +17,9 @@ import java.util.ArrayList;
 })
 public abstract class Clothes {
     public String Category;
-    @JacksonXmlProperty(localName = "Name")
+    @JacksonXmlProperty(localName = "Name", isAttribute = true)
     public String Name;
-    @JacksonXmlProperty(localName = "ProductID")
+    @JacksonXmlProperty(localName = "ProductID", isAttribute = true)
     public int ProductID;
     @JacksonXmlProperty(localName = "Cost")
     public int Cost;

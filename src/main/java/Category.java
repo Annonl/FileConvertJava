@@ -9,10 +9,10 @@ import java.util.ArrayList;
 public class Category {
     @JacksonXmlElementWrapper(localName="Clotheses")
     public ArrayList<Clothes> Clotheses;
-    @JacksonXmlProperty(localName = "NameCategory")
+    @JacksonXmlProperty(localName = "NameCategory", isAttribute = true)
     @JsonProperty("NameCategory")
     private String NameCategory;
-    @JacksonXmlProperty(localName = "CategoryID")
+    @JacksonXmlProperty(localName = "CategoryID", isAttribute = true)
     @JsonProperty("CategoryID")
     private int CategoryId;
 
